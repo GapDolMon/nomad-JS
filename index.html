@@ -5,13 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <h1 id="name"></h1>
-        <h2 id="nowtime"></h2>
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <button>Login</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="nowtime"></h2>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a Todo and Press" required>
+    </form>
+    <ul id="todo-list">
+    </ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
     </div>
-    <script src="app.js"></script>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/goodword.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
