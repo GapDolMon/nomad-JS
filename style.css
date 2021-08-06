@@ -1,0 +1,9 @@
+body{
+    background-color:beige;
+}
+
+#nowtime{
+    vertical-align: middle;
+    text-align: center;
+    height:2000px;
+}
